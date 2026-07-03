@@ -21,7 +21,6 @@ if not BOT_TOKEN:
     raise ValueError("No BOT_TOKEN found in environment variables!")
 
 # Pollinations API (free, no key required for basic use)
-# You can get a free key at enter.pollinations.ai for higher limits
 POLLINATIONS_API_KEY = os.environ.get("POLLINATIONS_API_KEY", "")
 API_URL = "https://image.pollinations.ai/prompt/"
 
